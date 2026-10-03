@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #182848;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Navigation */
+nav {
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #182848;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4b6cb7;
+}
+
+/* Sections */
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    text-align: center;
+    color: #182848;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Skills */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
+#skills li {
+    background: #e8edff;
+    color: #182848;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* Projects */
+.project {
+    border-left: 5px solid #182848;
+    padding: 20px;
+    margin: 20px 0;
+    background: #f8f9ff;
+    border-radius: 8px;
+}
+
+.project h3 {
+    color: #182848;
+    margin-bottom: 8px;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #182848;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav {
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    section {
+        margin: 20px 10px;
+        padding: 25px 20px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,39 @@
+Create a modern, professional and responsive personal portfolio website for Tanu Sri, a final-year Artificial Intelligence and Data Science student.
+
+The portfolio should include the following sections:
+
+1. Home
+2. About Me
+3. Education
+4. Skills
+5. Projects
+6. Certifications and Internships
+7. Career Objective
+8. Contact
+9. GitHub and LinkedIn links
+
+Projects:
+- AI Medical Assistant
+- RTSP-Based Automated Attendance Monitoring System Using CCTV Face Recognition
+
+Skills:
+- Python
+- Java
+- HTML
+- CSS
+- JavaScript
+- Artificial Intelligence
+- Machine Learning
+
+Design requirements:
+- Clean and professional UI
+- Modern layout
+- Responsive design for mobile, tablet and desktop
+- Easy navigation
+- Professional typography
+- Attractive project cards
+- Smooth scrolling
+- Suitable for job applications and placements
+
+Use HTML, CSS and JavaScript.
+Keep the code simple, clean and beginner-friendly.

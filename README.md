@@ -40,4 +40,4 @@ This repository contains my personal portfolio website and the prompt used to cr
 
 ## Author
 
-Tanu Sri
+Tanuja kaibada 

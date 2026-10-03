@@ -1,4 +1,4 @@
-# Tanu Sri - Personal Portfolio
+# tanuja kaibada - Personal Portfolio
 
 Welcome to my personal portfolio website.
 
